@@ -66,7 +66,7 @@ export const handler = async (event, context) => {
   }
 
   // set thumbnail width. Resize will set the height automatically to maintain aspect ratio.
-  const width = 200;
+  const width = 300;
 
   // Use the sharp module to resize the image and save in a buffer.
   try {
